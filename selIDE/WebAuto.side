@@ -1,0 +1,187 @@
+{
+  "id": "fc79e135-9e16-4453-97a3-beac5d86836e",
+  "version": "2.0",
+  "name": "WebAuto",
+  "url": "https://www.heise.de",
+  "tests": [{
+    "id": "bb0c4365-4856-476d-88fe-5252e898fc92",
+    "name": "Heise Selenium news",
+    "commands": [{
+      "id": "f389277d-a65c-401e-9a10-a265b6658c4b",
+      "comment": "",
+      "command": "open",
+      "target": "/newsticker/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "daee31aa-131f-4289-aead-9cae197ecade",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1071x818",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9187b75b-58f9-416e-acff-80d0304709a6",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.topnavigation-search__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='heisetopnavi_search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af3b0b7e-9cb5-4d09-ac36-21846b66310d",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.topnavigation-search__input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='heisetopnavi_search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "14b8e179-2b30-425e-a5d6-f9ecc1fffe3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topnavigation-search__search-icon",
+      "targets": [
+        ["css=.topnavigation-search__search-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "099e7f74-378a-4dd0-9860-c7f1cbd7ab52",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,230)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f17a038-8965-4f15-b471-72ad9424bf3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a-article-teaser--horizontal-layout:nth-child(1) .a-article-teaser__title",
+      "targets": [
+        ["css=.a-article-teaser--horizontal-layout:nth-child(1) .a-article-teaser__title", "css:finder"],
+        ["xpath=//div[@id='bottom-up']/div[2]/div/div/div[3]/article/a/div/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Nicht zu unterschätzen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c4ebce3-5e3a-4b5b-9581-1dd34d97e8e4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.a-article-teaser:nth-child(1) .a-article-branding",
+      "targets": [
+        ["css=.a-article-teaser:nth-child(1) .a-article-branding", "css:finder"],
+        ["xpath=//div[@id='bottom-up']/div[2]/div/div/div[3]/article/a/div/footer/div", "xpath:idRelative"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72c1f2a3-ccd1-4db7-ae63-70c18b0fc947",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.a-article-teaser--horizontal-layout:nth-child(2) .a-article-teaser__title",
+      "targets": [
+        ["css=.a-article-teaser--horizontal-layout:nth-child(2) .a-article-teaser__title", "css:finder"],
+        ["xpath=//div[@id='bottom-up']/div[2]/div/div/div[3]/article[2]/a/div/header/h1", "xpath:idRelative"],
+        ["xpath=//article[2]/a/div/header/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Python und Selenium: Automatisch Online-Briefmarken bei der Post bestellen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06339ef9-2c4e-4bf0-b5f3-12eeb12ea774",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,434)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08b6a5e8-c4bc-4cb9-8c8a-11825e2a89f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a-article-teaser--horizontal-layout:nth-child(2) .a-article-teaser__title",
+      "targets": [
+        ["css=.a-article-teaser--horizontal-layout:nth-child(2) .a-article-teaser__title", "css:finder"],
+        ["xpath=//div[@id='bottom-up']/div[2]/div/div/div[3]/article[2]/a/div/header/h1", "xpath:idRelative"],
+        ["xpath=//article[2]/a/div/header/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Python und Selenium: Automatisch Online-Briefmarken bei der Post bestellen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e86eb8e7-4dea-4067-bce0-e16662236428",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.a-article-teaser:nth-child(1) .a-article-teaser__content-container",
+      "targets": [
+        ["css=.a-article-teaser:nth-child(1) .a-article-teaser__content-container", "css:finder"],
+        ["xpath=//div[@id='bottom-up']/div[2]/div/div/div[3]/article/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5526f9d5-8f2f-4a15-a661-4fcdef180a6b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.a-article-teaser:nth-child(1) .a-article-teaser__content-container",
+      "targets": [
+        ["css=.a-article-teaser:nth-child(1) .a-article-teaser__content-container", "css:finder"],
+        ["xpath=//div[@id='bottom-up']/div[2]/div/div/div[3]/article/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a0936da-f897-4151-aa07-258be93f1dd5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.a-article-teaser--horizontal-layout:nth-child(1) .a-article-teaser__content-container",
+      "targets": [
+        ["css=.a-article-teaser--horizontal-layout:nth-child(1) .a-article-teaser__content-container", "css:finder"],
+        ["xpath=//div[@id='bottom-up']/div[2]/div/div/div[3]/article/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b22e7e2-e767-4fb3-818f-d3c44abb5657",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.a-article-teaser--horizontal-layout:nth-child(1) .a-article-teaser__content-container",
+      "targets": [
+        ["css=.a-article-teaser--horizontal-layout:nth-child(1) .a-article-teaser__content-container", "css:finder"],
+        ["xpath=//div[@id='bottom-up']/div[2]/div/div/div[3]/article/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c73fdb2f-d491-480a-bd55-8eeb0ba24d4e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.a-article-teaser--horizontal-layout:nth-child(1) .a-article-teaser__title",
+      "targets": [
+        ["css=.a-article-teaser--horizontal-layout:nth-child(1) .a-article-teaser__title", "css:finder"],
+        ["xpath=//div[@id='bottom-up']/div[2]/div/div/div[3]/article/a/div/header/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Nicht zu unterschätzen')]", "xpath:innerText"]
+      ],
+      "value": "Nicht zu unterschätzen"
+    }]
+  }],
+  "suites": [{
+    "id": "c84a4612-04cd-4848-a631-1970a19584ca",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bb0c4365-4856-476d-88fe-5252e898fc92"]
+  }],
+  "urls": ["https://www.heise.de/"],
+  "plugins": []
+}
